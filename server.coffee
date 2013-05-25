@@ -1,6 +1,6 @@
-xml2js = {}
+@xml2js = {}
 
 do -> # To not pollute the namespace
-  require = __meteor_bootstrap__.require
+  require = Npm.require
 
-  xml2js = require 'xml2js'
+  @xml2js = require 'xml2js'
