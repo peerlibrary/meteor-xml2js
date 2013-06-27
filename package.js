@@ -11,3 +11,8 @@ Package.on_use(function (api) {
     'server.js'
   ], 'server');
 });
+
+Package.on_test(function (api) {
+  api.use(['xml2js', 'tinytest', 'test-helpers'], ['server']);
+  api.add_files('tests.js', ['server']);
+});
