@@ -1,0 +1,1 @@
+xml2js = Npm.require('xml2js');
