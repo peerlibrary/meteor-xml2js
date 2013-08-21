@@ -7,6 +7,8 @@ Npm.depends({
 });
 
 Package.on_use(function (api) {
+  api.export('xml2js');
+
   api.add_files([
     'server.js'
   ], 'server');
