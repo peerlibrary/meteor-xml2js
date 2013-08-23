@@ -7,6 +7,8 @@ Npm.depends({
 });
 
 Package.on_use(function (api) {
+  api.use('blocking');
+
   api.export('xml2js');
 
   api.add_files([

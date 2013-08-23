@@ -4,5 +4,8 @@
   "homepage": "https://github.com/peerlibrary/meteor-xml2js",
   "author": "The PeerLibrary Project",
   "version": "0.2.8.2",
-  "git": "https://github.com/peerlibrary/meteor-xml2js.git"
+  "git": "https://github.com/peerlibrary/meteor-xml2js.git",
+  "packages": {
+    "blocking": {}
+  }
 }
