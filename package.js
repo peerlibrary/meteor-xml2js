@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Npm.depends({
-  xml2js: "0.2.8"
+  xml2js: "0.4.1"
 });
 
 Package.on_use(function (api) {
