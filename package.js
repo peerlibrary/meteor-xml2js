@@ -1,9 +1,9 @@
 Package.describe({
-  summary: "Meteor smart package for xml2js node.js package"
+  summary: "Simple XML to JavaScript object converter"
 });
 
 Npm.depends({
-  xml2js: "0.4.1"
+  xml2js: "0.4.4"
 });
 
 Package.on_use(function (api) {
