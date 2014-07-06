@@ -1,4 +1,4 @@
-Tinytest.addAsync('meteor-xml2js', function (test, onComplete) {
+Tinytest.addAsync('xml2js', function (test, onComplete) {
   var isDefined = false;
   try {
     xml2js;
