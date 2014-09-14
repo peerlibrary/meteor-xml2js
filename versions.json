@@ -9,6 +9,10 @@
       "0.4.2"
     ],
     [
+      "peerlibrary:xml2js",
+      "0.4.4-2"
+    ],
+    [
       "underscore",
       "1.0.0"
     ]
