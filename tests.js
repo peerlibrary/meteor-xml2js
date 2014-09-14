@@ -7,7 +7,7 @@ Tinytest.addAsync('xml2js', function (test, onComplete) {
   catch (e) {
   }
   test.isTrue(isDefined, "xml2js is not defined");
-  test.isTrue(Package.xml2js.xml2js, "Package.xml2js.xml2js is not defined");
+  test.isTrue(Package['peerlibrary:xml2js'].xml2js, "Package.peerlibrary:xml2js.xml2js is not defined");
 
   test.isTrue(xml2js.parseStringSync._blocking);
 
