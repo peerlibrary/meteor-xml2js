@@ -16,5 +16,5 @@ Installation
 ------------
 
 ```
-mrt add xml2js
+meteor add peerlibray:xml2js
 ```
