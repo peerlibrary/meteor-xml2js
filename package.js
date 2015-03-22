@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Simple XML to JavaScript object converter",
-  version: '0.4.5_1',
+  version: '0.4.5_2',
   name: 'peerlibrary:xml2js',
   git: 'https://github.com/peerlibrary/meteor-xml2js.git'
 });
